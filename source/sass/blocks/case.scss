@@ -1,0 +1,53 @@
+.case {
+  &__link {
+    font-size: 18px;
+    font-weight: bold;
+    color: inherit;
+    transition: 0.4s;
+
+    &:hover {
+      text-decoration: none;
+      color: $primary;
+    }
+  }
+
+  &__img-wrap {
+    position: relative;
+    border-radius: $border-radius-lg;
+    overflow: hidden;
+    background-color: #000;
+
+    img {
+      transition: 0.4s;
+    }
+  }
+
+  &__overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1.125rem;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: translateY(100%);
+    transition: 0.4s;
+
+    &-item {
+      &:not(:last-child) {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+
+  &__link:hover ~ &__img-wrap img {
+    opacity: 0.5;
+  }
+
+  &__link:hover ~ &__img-wrap &__overlay {
+    transform: translateY(0);
+  }
+}
