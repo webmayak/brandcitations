@@ -1,1 +1,32 @@
+$blue: #3281ec;
+$orange: #f49a40;
+$yellow: #f2c94c;
+$green: #25ae60;
+$primary: $green;
+$secondary: $orange;
+$yiq-contrasted-threshold: 200;
+
+$spacer: 1rem;
+$spacers: (
+  32p: ($spacer * 2),
+  64p: ($spacer * 4)
+);
+
+$body-color: #212121;
+$link-color: $blue;
+$border-radius: 0.25rem;
+$border-color: #ebebeb;
+$box-shadow: 0 3px 15px rgba(0, 0, 0, 0.05);
+
 $font-family-sans-serif: "Inter", "Helvetica", sans-serif;
+$h2-font-size: 42px;
+$headings-font-weight: bold;
+
+$input-border-color: $border-color;
+
+$btn-padding-y: 0.75rem;
+$btn-padding-y-sm: 0.5rem;
+$btn-border-radius-sm: $border-radius;
+
+$card-border-radius: 12px;
+$card-border-color: $border-color;
