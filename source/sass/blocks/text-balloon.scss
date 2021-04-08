@@ -1,0 +1,24 @@
+.text-balloon {
+  width: 65%;
+  border-radius: $border-radius;
+  padding: 1rem;
+  position: relative;
+  background-color: #fff;
+  box-shadow: 0 3px 20px 0 rgba(124, 124, 124, 0.15);
+
+  &--light {
+    background-color: #f7f7f7;
+    box-shadow: none;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 1rem;
+    width: 12px;
+    height: 12px;
+    background-color: inherit;
+    clip-path: polygon(100% 0%, 0% 0%, 0% 100%);
+  }
+}
