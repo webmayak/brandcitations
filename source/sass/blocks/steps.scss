@@ -1,0 +1,35 @@
+.steps {
+  &__icon {
+    height: 64px;
+
+    img {
+      margin: auto;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translate(-50%, 6px);
+      height: 36px;
+      width: 4px;
+      background-repeat: no-repeat;
+      background-size: 4px;
+      background-position: 50%;
+      background-image: url("../img/steps/dots.svg");
+    }
+  }
+
+  &__list {
+    li {
+      &:last-child {
+        .steps__icon {
+          &::after {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
