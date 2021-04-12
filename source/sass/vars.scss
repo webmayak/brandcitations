@@ -11,7 +11,8 @@ $spacers: (
   12p: ($spacer * 0.75),
   32p: ($spacer * 2),
   64p: ($spacer * 4),
-  96p: ($spacer * 6)
+  96p: ($spacer * 6),
+  128p: ($spacer * 8)
 );
 
 $font-sizes: (
@@ -30,6 +31,7 @@ $box-shadow: 0 3px 15px rgba(0, 0, 0, 0.05);
 
 $font-family-sans-serif: "Inter", "Helvetica", sans-serif;
 $h2-font-size: 2.625rem;
+$h3-font-size: 1.5rem;
 $headings-font-weight: bold;
 $text-muted: #9e9e9e;
 
