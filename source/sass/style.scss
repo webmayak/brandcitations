@@ -1,6 +1,7 @@
 @import "vars";
 @import "fonts";
 @import "../../node_modules/bootstrap/scss/bootstrap";
+@import "../../node_modules/owl.carousel/src/scss/owl.carousel";
 @import "global";
 @import "helpers/fs";
 @import "blocks/advantages";
@@ -9,6 +10,7 @@
 @import "blocks/header";
 @import "blocks/help";
 @import "blocks/languages";
+@import "blocks/reviews";
 @import "blocks/steps";
 @import "blocks/tariff-card";
 @import "blocks/text-balloon";

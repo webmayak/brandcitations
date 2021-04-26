@@ -1,0 +1,24 @@
+.reviews {
+  &__carousel {
+    position: static;
+    font-size: 18px;
+
+    &-wrap {
+      padding-top: 60px;
+    }
+
+    .owl-nav {
+      position: absolute;
+      top: 0;
+
+      .disabled {
+        opacity: 0.5;
+        cursor: default;
+      }
+
+      .owl-next {
+        margin-left: 32px;
+      }
+    }
+  }
+}
