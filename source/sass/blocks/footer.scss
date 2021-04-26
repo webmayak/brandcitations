@@ -1,0 +1,33 @@
+.footer {
+  &__menu {
+    font-size: 14px;
+    margin-bottom: 0;
+
+    li {
+      &:not(:last-child) {
+        margin-bottom: 12px;
+      }
+    }
+
+    a {
+      color: inherit;
+      transition: 0.25s;
+
+      &:hover {
+        text-decoration: none;
+        color: $primary;
+      }
+    }
+
+    &--horizontal {
+      display: flex;
+  
+      li {
+        &:not(:last-child) {
+          margin-right: 30px;
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
