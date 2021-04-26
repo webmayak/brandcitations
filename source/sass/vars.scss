@@ -22,6 +22,10 @@ $font-sizes: (
   60: 60px
 );
 
+$row-sizes: (
+  md: ($spacer * 0.5),
+);
+
 $body-color: #212121;
 $link-color: $blue;
 $border-radius: 0.25rem;
