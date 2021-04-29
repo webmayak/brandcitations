@@ -1,4 +1,7 @@
 .nav-link {
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+
   &.dropdown-toggle {
     &::after {
       color: $text-muted;

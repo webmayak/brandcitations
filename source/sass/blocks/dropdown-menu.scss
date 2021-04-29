@@ -1,0 +1,42 @@
+.dropdown-menu {
+  &__list {
+    margin-bottom: -1.5rem;
+  }
+  
+  &__item {
+    margin-bottom: 1.5rem;
+
+    a {
+      display: flex;
+      align-items: center;
+      color: inherit;
+      transition: 0.25s;
+
+      &:hover {
+        text-decoration: none;
+        color: $link-color;
+      }
+    }
+  }
+
+  &__link-icon {
+    flex-shrink: 0;
+    width: 36px;
+    margin-right: 0.5rem;
+    text-align: center;
+  }
+
+  &--packages {
+    right: 0;
+    padding: 32px 0;
+    border: none;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.06);
+  }
+
+  &--services {
+    width: 410px;
+    padding: 32px;
+    border: none;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.06);
+  }
+}
