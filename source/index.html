@@ -516,7 +516,7 @@
         <li class="row align-items-center justify-content-center mb-5">
           <div class="col-lg-4">
             <div class="card card-body shadow py-2">
-              <div class="text-right"><a href="#">Fill the form</a> and get a free Proposal and Consultation from us</div>
+              <div class="text-right"><a href="#signUpModal" data-toggle="modal">Fill the form</a> and get a free Proposal and Consultation from us</div>
             </div>
           </div>
           <div class="col-lg-1">
@@ -641,7 +641,7 @@
             <div class="card-footer">
               <div class="h3">$300</div>
               <div class="fs-14 text-primary">+15 free bonus links</div>
-              <button type="button" class="tariff-card__btn btn btn-sm btn-primary mt-3 mx-auto">Choose plan</button>
+              <button type="button" class="tariff-card__btn btn btn-sm btn-primary mt-3 mx-auto" data-toggle="modal" data-target="#signUpModal">Choose plan</button>
             </div>
           </div>
         </div>
@@ -672,7 +672,7 @@
             <div class="card-footer">
               <div class="h3">$1 440</div>
               <div class="fs-14 text-warning">+70 free bonus links</div>
-              <button type="button" class="tariff-card__btn btn btn-sm btn-secondary mt-3 mx-auto">Choose plan</button>
+              <button type="button" class="tariff-card__btn btn btn-sm btn-secondary mt-3 mx-auto" data-toggle="modal" data-target="#signUpModal">Choose plan</button>
             </div>
           </div>
         </div>
@@ -702,7 +702,7 @@
             <div class="card-footer">
               <div class="h3"><span class="fs-14 font-weight-normal">from</span> $3 400</div>
               <div class="fs-14 text-primary">+70 free bonus links</div>
-              <button type="button" class="tariff-card__btn btn btn-sm btn-primary mt-3 mx-auto">Choose plan</button>
+              <button type="button" class="tariff-card__btn btn btn-sm btn-primary mt-3 mx-auto" data-toggle="modal" data-target="#signUpModal">Choose plan</button>
             </div>
           </div>
         </div>
@@ -789,7 +789,7 @@
           </ul>
           <div class="row">
             <div class="col-lg-4">
-              <a href="#" class="btn btn-primary btn-block mt-5">Sign up</a>
+              <button type="button" class="btn btn-primary btn-block mt-5" data-toggle="modal" data-target="#signUpModal">Sign up</button>
             </div>
           </div>
         </div>
@@ -1016,6 +1016,41 @@
       </div>
     </div>
   </footer>
+
+  <!-- Sign Up Modal -->
+  <div class="modal fade" id="signUpModal" tabindex="-1" aria-labelledby="signUpModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="signUpModalLabel">Register now</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="name">Your name</label>
+              <input type="text" class="form-control" id="name" placeholder="Сергей Скворцов">
+            </div>
+            <div class="form-group">
+              <label for="tel">Phone</label>
+              <input type="tel" class="form-control" id="tel" placeholder="+38 ХХХ ХХХ ХХ ХХ" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="example@example.ru">
+            </div>
+            <div class="form-group">
+              <label for="url">Web site</label>
+              <input type="url" class="form-control" id="url" placeholder="www.example.com" required>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script src="js/scripts.min.js"></script>
 </body>
