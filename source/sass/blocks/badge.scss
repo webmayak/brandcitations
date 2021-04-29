@@ -1,0 +1,11 @@
+.badge {
+  &-primary-light {
+    background-color: #cee4d7;
+    color: $primary;
+  }
+  
+  &-secondary-light {
+    background-color: #ffead5;
+    color: $orange;
+  }
+}

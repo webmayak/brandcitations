@@ -16,6 +16,7 @@ $spacers: (
 );
 
 $font-sizes: (
+  12: 12px,
   14: 14px,
   18: 18px,
   22: 22px,
@@ -34,6 +35,7 @@ $border-color: #ebebeb;
 $box-shadow: 0 3px 15px rgba(0, 0, 0, 0.05);
 
 $font-family-sans-serif: "Inter", "Helvetica", sans-serif;
+$font-size-base: 1rem;
 $h2-font-size: 2.625rem;
 $h3-font-size: 1.5rem;
 $headings-font-weight: bold;
@@ -53,3 +55,11 @@ $card-border-color: $border-color;
 $badge-font-weight: normal;
 $badge-padding-y: 0.5em;
 $badge-padding-x: 0.5em;
+
+$navbar-padding-y: $spacer;
+$navbar-brand-font-size: $font-size-base;
+$navbar-brand-padding-y: 0;
+$navbar-light-color: $body-color;
+$navbar-light-hover-color: $link-color;
+
+$dropdown-border-color: $border-color;
