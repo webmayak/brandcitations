@@ -1,9 +1,17 @@
 .help {
-  font-size: 18px;
-  
   &__img {
-    height: 180px;
+    height: 100px;
     object-fit: scale-down;
-    margin-bottom: 32px;
+  }
+}
+
+@media (min-width: 992px) {
+  .help {    
+    font-size: 18px;
+    height: 100%;
+    
+    &__img {
+      height: 180px;
+    }
   }
 }
