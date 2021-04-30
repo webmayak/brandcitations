@@ -22,3 +22,15 @@
     }
   }
 }
+
+@media (max-width: 991px) {
+  .reviews {
+    &__carousel {  
+      &-text {
+        border-radius: $border-radius-lg;
+        background-color: #eceff3;
+        padding: 16px;
+      }
+    }
+  }
+}
