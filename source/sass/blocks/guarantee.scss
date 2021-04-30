@@ -1,5 +1,14 @@
 .guarantee {
-  img {
+  &__img {
     object-fit: scale-down;
+    height: 57px;
+  }
+}
+
+@media (max-width: 991px) {
+  .guarantee {
+    &__img {
+      height: 30px;
+    }
   }
 }
