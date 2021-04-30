@@ -5,3 +5,9 @@
   background-position: 50% 100%;
   background-image: url("../img/header.svg");
 }
+
+@media (max-width: 991px) {
+  .header {
+    padding: 48px 0 96px;
+  }
+}
