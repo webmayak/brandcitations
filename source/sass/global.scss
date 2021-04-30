@@ -5,3 +5,18 @@
 .font-style-normal {
   font-style: normal;
 }
+
+.min-w-144 {
+  min-width: 144px;
+}
+
+.min-w-176 {
+  min-width: 176px;
+}
+
+@media (min-width: 992px) {
+  h2,
+  .h2 {
+    font-size: 42px;
+  }
+}
