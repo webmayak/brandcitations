@@ -1,0 +1,10 @@
+.card {
+  &--hoverable {
+    transition: 0.25s;
+  
+    &:hover {
+      border-color: $primary;
+      box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+    }
+  }
+}
