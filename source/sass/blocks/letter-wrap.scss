@@ -1,0 +1,31 @@
+.letter-wrap {
+  display: inline-block;
+  position: relative;
+
+  * {
+    pointer-events: none;
+  } 
+
+  &__word {
+    display: inline-flex;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  &__char {
+    display: inline-block;
+    position: relative;
+    text-transform: uppercase;
+    
+    &-inner {
+      display: inline-block;
+      
+      &:after {
+        content: attr(data-letter);
+        position: absolute;
+        top: 100%;
+        left: 0;
+      }
+    }
+  }
+}

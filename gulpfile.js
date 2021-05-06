@@ -56,6 +56,8 @@ gulp.task("scripts", function () {
       "node_modules/jquery/dist/jquery.min.js",
       "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
       "node_modules/owl.carousel/dist/owl.carousel.min.js",
+      "source/js/TweenMax.min.js",
+      "source/js/letter-wrap.js",
       "source/js/scripts.js"
       ]),
     concat("scripts.min.js"),
