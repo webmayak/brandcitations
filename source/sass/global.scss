@@ -14,7 +14,7 @@
   min-width: 176px;
 }
 
-@media (min-width: 992px) {
+@include media-breakpoint-up(lg) {
   h2,
   .h2 {
     font-size: 42px;

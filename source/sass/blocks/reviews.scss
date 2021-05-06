@@ -23,7 +23,7 @@
   }
 }
 
-@media (max-width: 991px) {
+@include media-breakpoint-down(md) {
   .reviews {
     &__carousel {  
       &-text {

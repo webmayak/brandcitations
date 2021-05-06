@@ -5,7 +5,7 @@
   }
 }
 
-@media (min-width: 992px) {
+@include media-breakpoint-up(lg) {
   .help {    
     font-size: 18px;
     height: 100%;

@@ -14,7 +14,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@include media-breakpoint-up(md) {
   .modal {
     &-title {
       font-size: 40px;

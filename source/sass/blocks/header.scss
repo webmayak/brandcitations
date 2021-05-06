@@ -6,7 +6,7 @@
   background-image: url("../img/header.svg");
 }
 
-@media (max-width: 991px) {
+@include media-breakpoint-down(md) {
   .header {
     padding: 48px 0 96px;
   }

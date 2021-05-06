@@ -5,7 +5,7 @@
   }
 }
 
-@media (max-width: 991px) {
+@include media-breakpoint-down(md) {
   .guarantee {
     &__img {
       height: 30px;

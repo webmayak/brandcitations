@@ -8,7 +8,7 @@
   }
 }
 
-@media (max-width: 991px) {
+@include media-breakpoint-down(md) {
   .main-nav {
     .navbar-nav {
       padding-top: 0.5rem;
@@ -48,7 +48,7 @@
   }
 }
 
-@media (min-width: 992px) {
+@include media-breakpoint-up(lg) {
   .main-nav {
     .nav-link {
       padding-top: 1.75rem;
@@ -57,14 +57,7 @@
   }
 }
 
-@media (min-width: 1200px) {
-  .main-nav .navbar-nav .nav-link {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-}
-
-@media (min-width: 1280px) {
+@include media-breakpoint-up(xl) {
   .main-nav .navbar-nav .nav-link {
     padding-left: 2rem;
     padding-right: 2rem;

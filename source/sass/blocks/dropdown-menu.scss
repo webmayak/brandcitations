@@ -32,7 +32,7 @@
   }
 }
 
-@media (max-width: 991px) {
+@include media-breakpoint-down(md) {
   .dropdown-menu {
     &--packages,
     &--services {
@@ -52,7 +52,7 @@
   }
 }
 
-@media (min-width: 992px) {
+@include media-breakpoint-up(lg) {
   .dropdown {
     &--packages {
       position: static;
