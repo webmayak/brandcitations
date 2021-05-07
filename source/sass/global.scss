@@ -22,6 +22,12 @@ select.form-control {
   padding-right: 30px;
 }
 
+.form-control {
+  &:hover {
+    border-color: $primary;
+  }
+}
+
 @include media-breakpoint-up(lg) {
   h2,
   .h2 {
