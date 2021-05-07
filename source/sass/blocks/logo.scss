@@ -1,0 +1,11 @@
+.logo {
+  path {
+    transition: 0.4s;
+  }
+
+  &:hover {
+    path {
+      fill: $primary;
+    }
+  }
+}
