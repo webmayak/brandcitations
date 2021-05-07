@@ -58,6 +58,15 @@
 }
 
 @include media-breakpoint-up(xl) {
+  .main-nav {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .navbar-brand {
+    margin-right: 0;
+  }
+
   .main-nav .navbar-nav .nav-link {
     padding-left: 2rem;
     padding-right: 2rem;
