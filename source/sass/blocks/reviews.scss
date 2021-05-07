@@ -11,13 +11,20 @@
       position: absolute;
       top: 0;
 
-      .disabled {
+      button {
         opacity: 0.5;
-        cursor: default;
-      }
 
-      .owl-next {
-        margin-left: 32px;
+        &.disabled {
+          cursor: default;
+        }
+  
+        &:not(.disabled):hover {
+          opacity: 1;
+        }
+
+        &.owl-next {
+          margin-left: 32px;
+        }
       }
     }
   }
